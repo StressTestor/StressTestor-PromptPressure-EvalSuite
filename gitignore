@@ -1,0 +1,64 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdm.toml
+.Python
+env/
+venv/
+ENV/
+VENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE/workspace configs
+.vscode/
+.idea/
+*.code-workspace
+
+# Test and coverage
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.coverage.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Output
+*.csv
+*.log
+
+# Project-specific
+# (Uncomment if you want to ignore outputs, logs, temp data, etc.)
+# eval_scores_output_*.csv
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Misc
+*.bak
+*.swp
+
+# Node (if you ever use for dashboard UI in v2.x)
+node_modules/
+
+# Git itself
+.git/

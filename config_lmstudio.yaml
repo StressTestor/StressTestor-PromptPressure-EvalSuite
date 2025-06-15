@@ -1,0 +1,22 @@
+# PromptPressure Eval Suite v1.4 - LM Studio Config
+
+# Adapter/model provider to use (add LM Studio to your adapters for full support)
+model: lmstudio
+
+# Model name for your local LM Studio instance
+model_name: qwen/qwen3-8b
+
+# Run in simulation mode? (false = live, true = mock/sim)
+is_simulation: false
+
+# Path to your evaluation prompt dataset
+dataset: evals_dataset.json
+
+# Output file for evaluation results
+output: eval_scores_output_qwen3_8b.csv
+
+# --- LM Studio endpoint (update if needed) ---
+lmstudio_endpoint: "http://localhost:1234/v1/chat/completions"
+
+# --- Generation settings (optional) ---
+temperature: 0.7

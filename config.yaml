@@ -1,0 +1,27 @@
+# PromptPressure Eval Suite v1.4 - Main Config
+
+# Model adapter to use: "groq", "openai", or "mock"
+model: groq
+
+# Model name for the selected adapter
+model_name: llama3-70b-8192
+
+# Run in simulation mode? (false = live API, true = mock/sim)
+is_simulation: false
+
+# Path to your evaluation prompt dataset
+dataset: evals_dataset.json
+
+# Output file for evaluation results
+output: eval_scores_output_llama3_70b_8192.csv
+
+# --- API Keys (usually loaded from .env; you can leave these blank) ---
+groq_api_key: ""
+openai_api_key: ""
+
+# --- Endpoints (leave blank for default, or override here) ---
+groq_endpoint: "https://api.groq.com/openai/v1/chat/completions"
+openai_endpoint: "https://api.openai.com/v1/chat/completions"
+
+# --- Generation settings (optional) ---
+temperature: 0.7

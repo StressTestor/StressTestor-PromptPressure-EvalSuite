@@ -1,0 +1,2 @@
+# Dependencies for logo generation
+Pillow>=9.0.0
